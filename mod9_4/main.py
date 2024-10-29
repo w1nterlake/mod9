@@ -4,7 +4,9 @@ max = 0
 for c in text:
     if c != ' ':
         count += 1
+        if count > max:
+            max = count
     else:
-        max = count
         count = 0
+
 print(max)
