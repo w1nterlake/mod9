@@ -4,7 +4,5 @@ sum = 0
 for s in word:
     if s == 'b':
         sum += mult
-        mult += 2
-    elif s == 'a':
-        mult += 2
+    mult += 2
 print(sum)
